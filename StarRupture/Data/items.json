@@ -1,0 +1,1614 @@
+[
+  {
+    "Name": "Accumulator",
+    "Recipes": [
+      {
+        "Processor": "Assembler",
+        "CraftTime": 5,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Electronics",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Stator",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Battery",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Aerogel",
+    "Recipes": [
+      {
+        "Processor": "Compounder",
+        "CraftTime": 6,
+        "OutputQuantity": 2,
+        "Ingredients": [
+          {
+            "ItemName": "Geothite Powder",
+            "Amount": 4
+          },
+          {
+            "ItemName": "Calcium Powder",
+            "Amount": 6
+          },
+          {
+            "ItemName": "Liquid Helium",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Applicator",
+    "Recipes": [
+      {
+        "Processor": "Fabricator",
+        "CraftTime": 4,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Tube",
+            "Amount": 8
+          },
+          {
+            "ItemName": "Glass",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Basic Building Material",
+    "Recipes": [
+      {
+        "Processor": "Fabricator",
+        "CraftTime": 2,
+        "OutputQuantity": 10,
+        "Ingredients": [
+          {
+            "ItemName": "Wolfram Ore",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Titanium Ore",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Basic Fuel",
+    "Recipes": [
+      {
+        "Processor": "Compounder",
+        "CraftTime": 6,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Wolfram Powder",
+            "Amount": 4
+          },
+          {
+            "ItemName": "Geothite Powder",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Liquid Helium",
+            "Amount": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Battery",
+    "Recipes": [
+      {
+        "Processor": "Mega Press",
+        "CraftTime": 4,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Inductor",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Electronics",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Sulfuric Acid",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Calcite Block",
+    "Recipes": [
+      {
+        "Processor": "Smelter",
+        "CraftTime": 2,
+        "OutputQuantity": 2,
+        "Ingredients": [
+          {
+            "ItemName": "Calcite Ore",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Calcite Ore",
+    "Recipes": []
+  },
+  {
+    "Name": "Calcite Sheets",
+    "Recipes": [
+      {
+        "Processor": "Fabricator",
+        "CraftTime": 2,
+        "OutputQuantity": 2,
+        "Ingredients": [
+          {
+            "ItemName": "Calcite Block",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Calcium Powder",
+    "Recipes": [
+      {
+        "Processor": "Furnace",
+        "CraftTime": 3,
+        "OutputQuantity": 3,
+        "Ingredients": [
+          {
+            "ItemName": "Calcite Block",
+            "Amount": 1
+          }
+        ]
+      },
+      {
+        "Processor": "Furnace V2",
+        "CraftTime": 3,
+        "OutputQuantity": 10,
+        "Ingredients": [
+          {
+            "ItemName": "Calcite Block",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Ceramics",
+    "Recipes": [
+      {
+        "Processor": "Furnace",
+        "CraftTime": 2,
+        "OutputQuantity": 2,
+        "Ingredients": [
+          {
+            "ItemName": "Calcite Sheets",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Wolfram Powder",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Chemicals",
+    "Recipes": [
+      {
+        "Processor": "Furnace",
+        "CraftTime": 2,
+        "OutputQuantity": 2,
+        "Ingredients": [
+          {
+            "ItemName": "Synthetic Silicon",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Wolfram Powder",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Helium-3",
+            "Amount": 1
+          }
+        ]
+      },
+      {
+        "Processor": "Furnace V2",
+        "CraftTime": 2,
+        "OutputQuantity": 4,
+        "Ingredients": [
+          {
+            "ItemName": "Calcium Powder",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Wolfram Powder",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Helium-3",
+            "Amount": 4
+          },
+          {
+            "ItemName": "Geothite Ingot",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Electromagnet",
+    "Recipes": [
+      {
+        "Processor": "Assembler",
+        "CraftTime": 5,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Electromagnetic Coil",
+            "Amount": 3
+          },
+          {
+            "ItemName": "Synthetic Resin",
+            "Amount": 3
+          },
+          {
+            "ItemName": "Accumulator",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Electromagnetic Coil",
+    "Recipes": [
+      {
+        "Processor": "Mega Press",
+        "CraftTime": 4,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Inductor",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Pressurised Helium",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Wolfram Plate",
+            "Amount": 6
+          },
+          {
+            "ItemName": "Supermagnet",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Electronics",
+    "Recipes": [
+      {
+        "Processor": "Furnace",
+        "CraftTime": 5,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Synthetic Silicon",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Inductor",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Stator",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Epoxy",
+    "Recipes": [
+      {
+        "Processor": "Componder",
+        "CraftTime": 3,
+        "OutputQuantity": 2,
+        "Ingredients": [
+          {
+            "ItemName": "Liquid Helium",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Geothite Powder",
+            "Amount": 3
+          },
+          {
+            "ItemName": "Synthetic Resin",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Explosive Charge",
+    "Recipes": [
+      {
+        "Processor": "Assembler",
+        "CraftTime": 6,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Reinforced Housing",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Epoxy",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Generator",
+    "Recipes": [
+      {
+        "Processor": "Assembler",
+        "CraftTime": 10,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Turbine",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Battery",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Nozzle",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Geothite Ingot",
+    "Recipes": [
+      {
+        "Processor": "Pyro Forge",
+        "CraftTime": 4,
+        "OutputQuantity": 10,
+        "Ingredients": [
+          {
+            "ItemName": "Geothite Ore",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Geothite Ore",
+    "Recipes": []
+  },
+  {
+    "Name": "Geothite Powder",
+    "Recipes": [
+      {
+        "Processor": "Compounder",
+        "CraftTime": 2,
+        "OutputQuantity": 4,
+        "Ingredients": [
+          {
+            "ItemName": "Geothite Ingot",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Pressurised Helium",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Calcium Powder",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Glass",
+    "Recipes": [
+      {
+        "Processor": "Furnace",
+        "CraftTime": 3,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Helium-3",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Calcium Powder",
+            "Amount": 2
+          }
+        ]
+      },
+      {
+        "Processor": "Furnace V2",
+        "CraftTime": 3,
+        "OutputQuantity": 4,
+        "Ingredients": [
+          {
+            "ItemName": "Pressurised Helium",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Calcite Sheets",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Geothite Ingot",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Hardening Agent",
+    "Recipes": [
+      {
+        "Processor": "Furnace",
+        "CraftTime": 4,
+        "OutputQuantity": 2,
+        "Ingredients": [
+          {
+            "ItemName": "Sulfuric Acid",
+            "Amount": 5
+          },
+          {
+            "ItemName": "Synthetic Silicon",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Applicator",
+            "Amount": 1
+          }
+        ]
+      },
+      {
+        "Processor": "Furnace V2",
+        "CraftTime": 4,
+        "OutputQuantity": 5,
+        "Ingredients": [
+          {
+            "ItemName": "Sulfuric Acid",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Synthetic Silicon",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Applicator",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Pressurised Helium",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Heat Resistant Sheet",
+    "Recipes": [
+      {
+        "Processor": "Furnace",
+        "CraftTime": 4,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Wolfram Plate",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Titanium Sheet",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Glass",
+            "Amount": 1
+          }
+        ]
+      },
+      {
+        "Processor": "Furnace V2",
+        "CraftTime": 4,
+        "OutputQuantity": 5,
+        "Ingredients": [
+          {
+            "ItemName": "Titanoferrite Ingot",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Wolfram Steel Ingot",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Helium-3",
+            "Amount": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Helium-3",
+    "Recipes": []
+  },
+  {
+    "Name": "Impeller",
+    "Recipes": [
+      {
+        "Processor": "Mega Press",
+        "CraftTime": 4,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Titanium Rod",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Heat Resistant Sheet",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Wolfram Plate",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Stabiliser",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Inductor",
+    "Recipes": [
+      {
+        "Processor": "Furnace",
+        "CraftTime": 4,
+        "OutputQuantity": 2,
+        "Ingredients": [
+          {
+            "ItemName": "Tube",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Wolfram Wire",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Ceramics",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Intermediate Building Material",
+    "Recipes": [
+      {
+        "Processor": "Mega Press",
+        "CraftTime": 6,
+        "OutputQuantity": 25,
+        "Ingredients": [
+          {
+            "ItemName": "Basic Building Material",
+            "Amount": 40
+          },
+          {
+            "ItemName": "Inductor",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Glass",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Titanium Housing",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Ion Injector",
+    "Recipes": [
+      {
+        "Processor": "Compounder",
+        "CraftTime": 12,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Applicator",
+            "Amount": 8
+          },
+          {
+            "ItemName": "Electromagnet",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Pressure Tank",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Ion Stablizer",
+    "Recipes": [
+      {
+        "Processor": "Mega Press",
+        "CraftTime": 10,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Epoxy",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Liquid Helium",
+            "Amount": 3
+          },
+          {
+            "ItemName": "Onboard Instruments",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Explosive Charge",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Laser Emitter",
+    "Recipes": [
+      {
+        "Processor": "Assembler",
+        "CraftTime": 6,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Lens",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Resonator",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Electromagnetic Coil",
+            "Amount": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Lens",
+    "Recipes": [
+      {
+        "Processor": "Compounder",
+        "CraftTime": 10,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Glass",
+            "Amount": 10
+          },
+          {
+            "ItemName": "Hardening Agent",
+            "Amount": 6
+          },
+          {
+            "ItemName": "Synthetic Resin",
+            "Amount": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Liquid Helium",
+    "Recipes": [
+      {
+        "Processor": "Compounder",
+        "CraftTime": 3,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Pressurised Helium",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Hardening Agent",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Nanofiber",
+    "Recipes": [
+      {
+        "Processor": "Compounder",
+        "CraftTime": 6,
+        "OutputQuantity": 2,
+        "Ingredients": [
+          {
+            "ItemName": "Tube",
+            "Amount": 20
+          },
+          {
+            "ItemName": "Liquid Helium",
+            "Amount": 5
+          },
+          {
+            "ItemName": "Wolfram Wire",
+            "Amount": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Nozzle",
+    "Recipes": [
+      {
+        "Processor": "Mega Press",
+        "CraftTime": 5,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Heat Resistant Sheet",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Helium-3",
+            "Amount": 6
+          },
+          {
+            "ItemName": "Stabiliser",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Oil",
+    "Recipes": []
+  },
+  {
+    "Name": "Onboard Instruments",
+    "Recipes": [
+      {
+        "Processor": "Assembler",
+        "CraftTime": 5,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Electronics",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Stabiliser",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Reinforced Housing",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Pressure Tank",
+    "Recipes": [
+      {
+        "Processor": "Assembler",
+        "CraftTime": 10,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Heat Resistant Sheet",
+            "Amount": 5
+          },
+          {
+            "ItemName": "Valve",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Pump",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Pressurised Helium",
+    "Recipes": [
+      {
+        "Processor": "Pressurizer",
+        "CraftTime": 2,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Sulfur Ore",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Helium-3",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Pump",
+    "Recipes": [
+      {
+        "Processor": "Mega Press",
+        "CraftTime": 10,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Valve",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Turbine",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Impeller",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Sulfuric Acid",
+            "Amount": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Reinforced Frame",
+    "Recipes": [
+      {
+        "Processor": "Mega Press",
+        "CraftTime": 5,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Tube",
+            "Amount": 4
+          },
+          {
+            "ItemName": "Titanoferrite Ingot",
+            "Amount": 4
+          },
+          {
+            "ItemName": "Titanium Beam",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Reinforced Housing",
+    "Recipes": [
+      {
+        "Processor": "Mega Press",
+        "CraftTime": 4,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Titanium Housing",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Wolfram Steel Ingot",
+            "Amount": 4
+          },
+          {
+            "ItemName": "Wolfram Plate",
+            "Amount": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Resonator",
+    "Recipes": [
+      {
+        "Processor": "Assembler",
+        "CraftTime": 10,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Accumulator",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Generator",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Liquid Helium",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Rotor",
+    "Recipes": [
+      {
+        "Processor": "Fabricator",
+        "CraftTime": 6,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Titanium Rod",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Wolfram Wire",
+            "Amount": 2
+          }
+        ]
+      },
+      {
+        "Processor": "Fabricator V2",
+        "CraftTime": 6,
+        "OutputQuantity": 6,
+        "Ingredients": [
+          {
+            "ItemName": "Titanium Rod",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Wolfram Wire",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Wolfram Plate",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Scanner",
+    "Recipes": [
+      {
+        "Processor": "Assembler",
+        "CraftTime": 10,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Lens",
+            "Amount": 3
+          },
+          {
+            "ItemName": "Generator",
+            "Amount": 3
+          },
+          {
+            "ItemName": "Stabiliser",
+            "Amount": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Stabiliser",
+    "Recipes": [
+      {
+        "Processor": "Fabricator",
+        "CraftTime": 3,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Rotor",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Titanium Rod",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Stator",
+    "Recipes": [
+      {
+        "Processor": "Fabricator",
+        "CraftTime": 3,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Titanium Housing",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Wolfram Wire",
+            "Amount": 1
+          }
+        ]
+      },
+      {
+        "Processor": "Fabricator V2",
+        "CraftTime": 3,
+        "OutputQuantity": 3,
+        "Ingredients": [
+          {
+            "ItemName": "Titanium Housing",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Wolfram Wire",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Titanium Sheet",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Substance #FHS-135-493",
+    "Recipes": [
+      {
+        "Processor": "Compounder",
+        "CraftTime": 6,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Sulfuric Acid",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Geothite Powder",
+            "Amount": 3
+          },
+          {
+            "ItemName": "Liquid Helium",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Sulfur Ore",
+    "Recipes": []
+  },
+  {
+    "Name": "Sulfuric Acid",
+    "Recipes": [
+      {
+        "Processor": "Pressurizer",
+        "CraftTime": 2,
+        "OutputQuantity": 4,
+        "Ingredients": [
+          {
+            "ItemName": "Sulfur Ore",
+            "Amount": 8
+          },
+          {
+            "ItemName": "Chemicals",
+            "Amount": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Superconductor",
+    "Recipes": [
+      {
+        "Processor": "Compounder",
+        "CraftTime": 5,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Synthetic Resin",
+            "Amount": 4
+          },
+          {
+            "ItemName": "Electromagnet",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Supermagnet",
+            "Amount": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Supermagnet",
+    "Recipes": [
+      {
+        "Processor": "Furnace",
+        "CraftTime": 3,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Sulfuric Acid",
+            "Amount": 4
+          },
+          {
+            "ItemName": "Wolfram Plate",
+            "Amount": 4
+          },
+          {
+            "ItemName": "Chemicals",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Synthetic Resin",
+    "Recipes": [
+      {
+        "Processor": "Compounder",
+        "CraftTime": 3,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Hardening Agent",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Sulfuric Acid",
+            "Amount": 3
+          },
+          {
+            "ItemName": "Calcite Sheets",
+            "Amount": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Synthetic Silicon",
+    "Recipes": [
+      {
+        "Processor": "Furnace",
+        "CraftTime": 2,
+        "OutputQuantity": 2,
+        "Ingredients": [
+          {
+            "ItemName": "Calcium Powder",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Helium-3",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Ceramics",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Titanium Bar",
+    "Recipes": [
+      {
+        "Processor": "Smelter",
+        "CraftTime": 2,
+        "OutputQuantity": 2,
+        "Ingredients": [
+          {
+            "ItemName": "Titanium Ore",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Titanium Beam",
+    "Recipes": [
+      {
+        "Processor": "Fabricator",
+        "CraftTime": 3,
+        "OutputQuantity": 3,
+        "Ingredients": [
+          {
+            "ItemName": "Titanium Bar",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Titanium Housing",
+    "Recipes": [
+      {
+        "Processor": "Furnace",
+        "CraftTime": 2,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Titanium Beam",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Titanium Sheet",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Titanium Ore",
+    "Recipes": []
+  },
+  {
+    "Name": "Titanium Rod",
+    "Recipes": [
+      {
+        "Processor": "Fabricator",
+        "CraftTime": 2,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Titanium Bar",
+            "Amount": 1
+          }
+        ]
+      },
+      {
+        "Processor": "Fabricator V2",
+        "CraftTime": 2,
+        "OutputQuantity": 4,
+        "Ingredients": [
+          {
+            "ItemName": "Titanium Bar",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Titanium Sheet",
+    "Recipes": [
+      {
+        "Processor": "Fabricator",
+        "CraftTime": 2,
+        "OutputQuantity": 2,
+        "Ingredients": [
+          {
+            "ItemName": "Titanium Bar",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Titanoferrite Ingot",
+    "Recipes": [
+      {
+        "Processor": "Pyro Forge",
+        "CraftTime": 4,
+        "OutputQuantity": 10,
+        "Ingredients": [
+          {
+            "ItemName": "Titanium Ore",
+            "Amount": 10
+          },
+          {
+            "ItemName": "Geothite Ore",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Tube",
+    "Recipes": [
+      {
+        "Processor": "Fabricator",
+        "CraftTime": 2,
+        "OutputQuantity": 2,
+        "Ingredients": [
+          {
+            "ItemName": "Titanium Rod",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Titanium Sheet",
+            "Amount": 1
+          }
+        ]
+      },
+      {
+        "Processor": "Fabricator V2",
+        "CraftTime": 2,
+        "OutputQuantity": 8,
+        "Ingredients": [
+          {
+            "ItemName": "Geothite Ingot",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Titanium Sheet",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Wolfram Powder",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Turbine",
+    "Recipes": [
+      {
+        "Processor": "Mega Press",
+        "CraftTime": 6,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Impeller",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Stator",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Rotor",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Sulfuric Acid",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Valve",
+    "Recipes": [
+      {
+        "Processor": "Mega Press",
+        "CraftTime": 10,
+        "OutputQuantity": 1,
+        "Ingredients": [
+          {
+            "ItemName": "Titanium Housing",
+            "Amount": 1
+          },
+          {
+            "ItemName": "Titanium Beam",
+            "Amount": 3
+          },
+          {
+            "ItemName": "Titanium Rod",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Nozzle",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Wolfram Bar",
+    "Recipes": [
+      {
+        "Processor": "Smelter",
+        "CraftTime": 2,
+        "OutputQuantity": 2,
+        "Ingredients": [
+          {
+            "ItemName": "Wolfram Ore",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Wolfram Ore",
+    "Recipes": []
+  },
+  {
+    "Name": "Wolfram Plate",
+    "Recipes": [
+      {
+        "Processor": "Fabricator",
+        "CraftTime": 2,
+        "OutputQuantity": 2,
+        "Ingredients": [
+          {
+            "ItemName": "Wolfram Bar",
+            "Amount": 2
+          }
+        ]
+      },
+      {
+        "Processor": "Fabricator V2",
+        "CraftTime": 2,
+        "OutputQuantity": 5,
+        "Ingredients": [
+          {
+            "ItemName": "Wolfram Bar",
+            "Amount": 2
+          },
+          {
+            "ItemName": "Wolfram Powder",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Wolfram Powder",
+    "Recipes": [
+      {
+        "Processor": "Furnace",
+        "CraftTime": 2,
+        "OutputQuantity": 3,
+        "Ingredients": [
+          {
+            "ItemName": "Wolfram Bar",
+            "Amount": 1
+          }
+        ]
+      },
+      {
+        "Processor": "Furnace V2",
+        "CraftTime": 2,
+        "OutputQuantity": 10,
+        "Ingredients": [
+          {
+            "ItemName": "Wolfram Bar",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Wolfram Steel Ingot",
+    "Recipes": [
+      {
+        "Processor": "Pyro Forge",
+        "CraftTime": 4,
+        "OutputQuantity": 10,
+        "Ingredients": [
+          {
+            "ItemName": "Wolfram Ore",
+            "Amount": 10
+          },
+          {
+            "ItemName": "Geothite Ore",
+            "Amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Wolfram Wire",
+    "Recipes": [
+      {
+        "Processor": "Fabricator",
+        "CraftTime": 4,
+        "OutputQuantity": 2,
+        "Ingredients": [
+          {
+            "ItemName": "Wolfram Bar",
+            "Amount": 1
+          }
+        ]
+      },
+      {
+        "Processor": "Fabricator V2",
+        "CraftTime": 4,
+        "OutputQuantity": 8,
+        "Ingredients": [
+          {
+            "ItemName": "Wolfram Bar",
+            "Amount": 2
+          }
+        ]
+      }
+    ]
+  }
+]
